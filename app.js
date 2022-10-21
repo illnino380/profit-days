@@ -16,7 +16,7 @@ function profit(pricesPerWeek) {
   let maxProfit = 0;
   //set current bought price as first day price
   let currentPrice = pricesPerWeek[0];
-  let bestDayToBuy = 1;
+  let bestDayToBuy = 0;
   let bestDaytoSell = 0;
   let lastPriceDay = 0;
 
